@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-height: 100vh;
+  max-width: 100vw;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.main-navbar {
+  background-color: black;
+  width: 13%;
+  height: 95vh;
+  border-radius: 16px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 99;
+  box-shadow: 6px 6px 8px rgb(71, 70, 70);
+  user-select: none;
+}
+
+.brand > img {
+  width: 120px;
+  height: auto;
+  margin: 30px 0;
+}
+
+.nav-content {
+  padding-left: 0;
+  margin-top: 5px;
+}
+
+.nav-content > li {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+.nav-content > li > a {
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.nav-content > li > a > span {
+  transform: translateY(24%);
+}
+
+.section {
+  width: 80%;
+  margin-left: 200px;
+  height: 95vh;
+  transform: translateX(300%);
+  transition: 1s ease-in-out;
+  position: absolute;
+  right: 0;
+  margin-right: 2%;
+}
+
+section {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.active {
+  transform: translateX(0%);
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  background-image: url(https://images.pexels.com/photos/1287083/pexels-photo-1287083.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-position: center;
+  background-size: cover;
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+.home-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  user-select: none;
+}
+
+.home-content > a {
+  color: black;
+  text-decoration: none;
+  background-color: yellow;
+  transition: 0.25s ease-in-out;
+  border-radius: 25px;
+  padding: 6px;
+  width: 120px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.home-content > a:hover {
+  color: white;
+}
+
+.about-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-content > .title {
+  text-align: center;
+}
+
+.about-content > .title > h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.about-content > .content > p {
+  font-size: 20px;
+}
+
+.about-content > .content > .content1 {
+  display: flex;
+  gap: 30px;
+}
+
+.about-content > .content > .content1 > div:first-child {
+  width: 30%;
+}
+
+.about-content > .content > .content1 > div:last-child {
+  width: 70%;
+}
+
+.about-content > .content > .content1 > div > h1 {
+  font-size: 60px;
+  font-weight: 700;
+  text-align: end;
+}
+
+.about-content > .content > .content1 > div > h2 {
+  font-weight: 700;
+  color: red;
+}
+
+.about-content > .content > .content1 > div:last-child > p {
+  font-size: 20px;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  user-select: none;
+}
+
+.contact-section > h1 {
+  font-size: 80px;
+}
+
+.contact-section > h1 {
+  font-weight: bold;
+}
+
+.contact-section > p {
+  width: 60%;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.contact-section2 {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.contact-section2 > div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-section2 > div > img {
+  width: 80px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.contact-section2 > div > p {
+  font-weight: bold;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(img/—Pngtree—paper\ notes_1703834.png);
+  background-position: center;
+  background-size: cover;
+}
